@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    margin: 50px 50px;
+    padding: 20px;
+    background-color:#4b6584;
+    height: 400px;
+    
+}
+.dad{
+
+   display: flex;
+   flex-direction: row;
+   background-color:#f0f2f5;
+   justify-content: center;
+   margin-left: 150px;
+   width: 75%;
+   height: 350px;
+   border-radius: 30px;
+   box-shadow: 1px 1px 2px 2px;
+   
+}
+.father{
+  
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    height: 200px;
+    gap: 15px;
+    width: 70%px;
+    margin: 55px;
+
+}
+.mother{
+  
+    display: flex;
+    margin: 5px;
+
+}
+.form input{
+    
+    display: flex;
+    margin:15px; 
+    padding: 8px; 
+    margin-top: 0;
+    border-style: inherit;
+        
+}
+.button{
+
+    height: 40px;
+    padding: 5px;
+    background-color:#021f33e7;
+    color: rgb(0, 0, 0);
+    margin: 15px 10px;
+    border: 0;
+    font-size:20px;
+    box-shadow: 1px 1px 2px 2px;
+    border-radius: 20px;
+
+}
+.learn{
+
+    margin: 5px;
+    height: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.links a{
+
+    margin: 15px;
+    text-decoration: none;
+    box-shadow: 1px 1px 2px 2px;
+    color: rgb(8, 8, 8);
+    padding: 4px; 
+    background-color: #d1d8e0;
+    border-radius: 3px;
+}
+
